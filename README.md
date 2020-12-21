@@ -1,4 +1,15 @@
 # About this project
-This is a boilerplate of React application with my preferred stacks. created this repo for future reuse.
+This is a boilerplate of React application with my preferred stacks, optimized for furture reuse when starting a new project.
+
+## Stacks
+- This project is a server side rendered React app which uses [NextJS](https://github.com/vercel/next.js)
+- Intended to use with [TypeScript](https://github.com/microsoft/TypeScript)
+- Uses [styled-component](https://github.com/styled-components) for styling 
+- [material-ui](https://github.com/mui-org/material-ui) is used in combination with regular react component
+- [Husky](https://www.npmjs.com/package/husky) is used to ensure [eslint](https://github.com/eslint/eslint) and [commitlint](https://www.npmjs.com/package/@commitlint/cli) is run before each commit
+- Uses [conventional commit](https://www.npmjs.com/package/@commitlint/config-conventional) for commit lint rule
+
+### styled-component and material-ui being used together
+When styled-component and material-ui are used together in NextJS it requires [additional setup](https://stackoverflow.com/questions/55109497/how-to-integrate-nextjs-styled-components-with-material-ui). This is implemented in **_document.tsx** file in source code.
 
 

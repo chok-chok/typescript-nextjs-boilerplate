@@ -1,5 +1,5 @@
 # About this project
-This is a boilerplate of React application with my preferred stacks, optimized for furture reuse when starting a new project.
+This is a boilerplate of React application with my preferred stacks, optimized for future reuse when starting a new project.
 
 ## How to use this repo
 1. `git clone {this repo}`

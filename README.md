@@ -1,2 +1,4 @@
-# typescript-nextjs-boilerplate
-My NextJs Boilerplate, written in TypeScript
+# About this project
+This is a boilerplate of React application with my preferred stacks. created this repo for future reuse.
+
+

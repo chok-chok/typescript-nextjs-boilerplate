@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint src --ext ts --ext tsx",
     "lint:fix": "eslint src --ext ts --ext tsx --fix",
-    "husky:precommit": "npm run lint"
+    "husky:precommit": "npm run lint & npm run test"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.2",
